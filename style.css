@@ -1,0 +1,68 @@
+body{
+  background-color: ghostwhite;
+  margin: 0;
+}
+#container{
+  width: 80vw;
+  height: 100vh;
+  margin: auto auto;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Playfair Display', serif;
+}
+#instructions{
+  display: flex;
+  flex-direction: column;
+  padding: 15px 50px;
+}
+#instructions h1{
+  padding: 5px 0px;
+  margin: 0px;
+  font-family: 'Kirang Haerang', cursive;
+}
+#instructions h3{
+  padding: 5px 0px;
+  margin: 0px;
+}
+#instructions p{
+  padding: 0;
+  margin: 0;
+}
+p{
+  padding: 0px 50px;
+  margin: 0px;
+}
+#restart{
+  height: 30px;
+  width: 150px;
+  font-size: 15px;
+  margin: 20px auto;
+  background-color: white;
+  border: none;
+  box-shadow: 4px 4px 8px grey, -4px 4px 8px grey;
+  font-family: 'Playfair Display', serif;
+}
+
+#game div {
+  background-color: darkgrey;
+  border: 1px solid grey;
+  border-radius: 10px;
+  width: 15%;
+  height: 220px;
+  margin: 10px;
+  display: inline-block;
+  padding: 0px;
+  box-shadow: 4px 4px 8px grey, -4px 4px 8px grey;
+}
+
+#game {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  height: auto;
+  padding: 0px;
+  margin: 0px auto;
+  justify-content: center;
+}
